@@ -1,0 +1,38 @@
+
+
+body{
+    background-color: rgb(209, 77, 180);
+    padding: 45%;
+}
+.botao{
+
+    background-color: rgb(74, 207, 207);
+    color: black;
+    border: 5px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.botao:hover{
+    background-color: blue;
+    color: black;
+}
+.botao:hover:hover{
+    animation-name: botao;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0 0 50px 20px rgb(103, 209, 209);
+}
+.botao{
+    font-size: 32px;
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 15px;
+    color: rgb(230, 230, 230);
+    font-family: 400;
+    background: linear-gradient(to right,rgb(216, 66, 158));
+    cursor: pointer;
+}
+
+

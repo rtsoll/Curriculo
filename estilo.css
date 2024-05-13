@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(209, 77, 180);
+}
+.botao{
+    margin-left: 33%;
+    background-color: rgb(74, 207, 207);
+    color: black;
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.botao:hover{
+    background-color: blue;
+    color: black;
+}
+.botao:hover:hover{
+    animation-name: botao;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0 0 50px 20px rgb(103, 209, 209);
+}
+.botao{
+    font-size: 32px;
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 15px;
+    color: blue;
+    font-family: 400;
+    background: linear-gradient(to right,rgb(216, 66, 158));
+    cursor: pointer;
+}
+  .dados{
+    margin:0;
+    font-family:Sans-serif;
+    font-size: 16px;
+  }
+h2 {
+    font-weight: bold;
+    margin: 10px 0 0  0 ;
+}
+li p {
+    line-height: 2em;
+}
+.container-contato {
+    margin: 0 0 0 10px ;
+    text-align: center;
+}
+
+footer {
+    background: rgb(206, 67, 194);
+    width: auto;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin:0 auto;
+    
+     display: block;
+
+}
+
+
+
+
